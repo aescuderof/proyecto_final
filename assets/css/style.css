@@ -1,0 +1,101 @@
+body{
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.jumbotron {
+width: 100%;
+}
+
+.navbar {
+text-align: center;
+  margin-right: 10px;
+  float: right;
+  display: block;
+  position: static;
+  background-color: transparent;
+
+}
+
+li {
+	margin: 0 auto;
+	list-style: none;
+	display: inline;
+	padding-right: 5px;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+.rrss {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.portafolio_item .img{
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portafolio_item .img img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.img-responsive{
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  object-fit: cover;
+  object-position: 50% 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  overflow: hidden;
+
+}
+
+.col-md-4:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-md-4"] {
+    width: 100%;
+    color: red;
+  }
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-md-4"] {
+    width: 100%;
+    background-color: gray;
+  } 
