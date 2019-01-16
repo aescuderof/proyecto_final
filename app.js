@@ -28,3 +28,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+
+
+
+jQuery('.photo-thumbnails .thumbnail').click(function() {
+        jQuery('.photo-thumbnails .thumbnail').removeClass('current');
+        jQuery(this).addClass('current');
+        var path = jQuery(this).find('img').attr('src');
+        jQuery('#big-photo img').attr('src', path);
+    });

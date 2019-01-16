@@ -3,6 +3,11 @@ body{
 font-family: 'Roboto Condensed', sans-serif;
 }
 
+h1 {
+text-align: center;
+margin: auto;
+
+}
 
 .jumbotron {
 width: 100%;
@@ -73,6 +78,8 @@ h4 {
 .col-md-4:hover .overlay {
   opacity: 0.8;
 }
+
+
 
 .text {
   color: white;
