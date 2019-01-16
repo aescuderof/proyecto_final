@@ -4,11 +4,16 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
-text-align: center;
+display: block;  
+text-align: left;
 margin: auto;
 
 }
 
+iframe {
+padding: 20px;
+
+}
 .jumbotron {
 width: 100%;
 }
